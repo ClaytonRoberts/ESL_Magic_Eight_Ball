@@ -1,0 +1,28 @@
+/* because I'm toggling the class and state (see CSSTransition, property in=false via "loaded") i need to repeat the same transition actions for enter and exit here in the css below...  */
+
+
+.fade-enter{
+    opacity: 0.01;
+}
+
+.fade-enter-active{
+    opacity: 1;
+    transition: opacity 1500ms ease-in;
+}
+.fade-enter-done{
+    opacity: 1;
+
+}
+.fade-exit{
+    opacity: 0.01;
+}
+
+.fade-exit-active{
+    opacity: 1;
+    transition: opacity 1500ms ease-in;
+}
+.fade-exit-done{
+    opacity: 1;
+
+}
+

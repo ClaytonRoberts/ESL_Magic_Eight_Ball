@@ -1,0 +1,13 @@
+{
+  "short_name": "Eight_Ball",
+  "name": "ESL_Magic_Eight_Ball_Client",
+  "icons": [
+    {
+
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
