@@ -38,12 +38,6 @@ var Possible_Answers = [
     "Very doubtful."];
 
 class QuestionAnswer extends Component {
-    
-    
-    setRandomAnswer(){ 
-        return Possible_Answers[~~(Math.random() * Possible_Answers.length)];
-    }
-
     constructor() {
         super();
         this.state = {
@@ -55,7 +49,9 @@ class QuestionAnswer extends Component {
         }
     }
 
-
+    setRandomAnswer(){ 
+        return Possible_Answers[~~(Math.random() * Possible_Answers.length)];
+    }
           
     clicked(e){
         this.setState({
