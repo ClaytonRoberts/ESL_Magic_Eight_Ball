@@ -5,6 +5,7 @@ import uuid from 'uuid';
 import '../App.css';
 import EightBallLogoLarge from './images/EightBallLogoLarge.png'
 import posed from 'react-pose';
+import ReactGA from "react-ga";
 
 const Box = posed.div({
     hoverable: true,
@@ -74,9 +75,13 @@ class QuestionAnswer extends Component {
         }
     }
 
-
+    componentDidMount(){
+        ReactGA.initialize('UA-153195999-1');
+     }
 
     render() {
+        
+        
         const {loaded} = this.state;
       
 

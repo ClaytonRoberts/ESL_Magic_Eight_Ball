@@ -5,10 +5,9 @@ import './App.css';
 import QuestionAnswer from './components/QuestionAnswer';
 
 
+
 function App() {
 
-
-  
   return (
     <div className="App">
     <AppNavbar/>
