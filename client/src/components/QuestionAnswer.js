@@ -76,7 +76,9 @@ class QuestionAnswer extends Component {
     }
 
     componentDidMount(){
-        ReactGA.initialize('UA-153195999-1');
+        ReactGA.initialize('UA-153195999-1', {
+            siteSpeedSampleRate: 100  
+        });
      }
 
     render() {
